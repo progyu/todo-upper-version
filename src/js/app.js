@@ -109,10 +109,6 @@ $nav.addEventListener('click', e => {
   e.target.classList.add('active');
 
   navState = e.target.id;
-  // fetch(`/todos/${navState}`)
-  //   .then(res => res.json())
-  //   .then(render)
-  //   .catch(console.error);
   render();
 });
 
